@@ -22,7 +22,7 @@ describe('Math API Tests', function() {
                 .expect(function(res) {
                     var answer = res.body;
                     assert.equal(answer, 5);
-                });
+                })
                 .end(function(err, res) {
                     if (err) return done(err);
                     done();
