@@ -3,9 +3,12 @@ body {
   margin-left: 150px;
   margin-right: 320px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-size: cover;
+  background-position: top; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-image: url(home.jpg)
 }
-
 a {
   color: #00B7FF;
 }
